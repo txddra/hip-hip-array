@@ -39,12 +39,12 @@ const students = [
   'Wilson',
 ];
 
-function log(students){
+// function log(students){
 for(let i = 0; i < students.length; i++ ){
   console.log(students[i])
 }
-}
-log(students)
+// }
+// log(students)
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be first and 100 last.
