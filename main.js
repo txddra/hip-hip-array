@@ -109,7 +109,18 @@ for (let i = 0; i < myCousins.length; i++){
 
 // Challenge 8
 // Make a new EMPTY array and fill it with five values of your choice using BOTH .push AND .unshift, and then console.log out each value individually.
+const carMakes = [];
+banner(8)
+ 
 
+carMakes.push('Honda');
+carMakes.push('Jeep');
+carMakes.push('Toyota');
+carMakes.push("BMW");
+carMakes.push("Chevy")
+for (let i =0; i < carMakes.length; i++){
+console.log(carMakes[i])
+}
 
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
