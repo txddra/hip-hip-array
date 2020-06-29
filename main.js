@@ -124,6 +124,12 @@ console.log(carMakes[i])
 
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
+banner(9)
+
+for(let i = 3; i <= 10; i++){
+  console.log(students[i])
+
+}
 
 
 // Challenge 10
