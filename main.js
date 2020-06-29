@@ -6,7 +6,7 @@
 // Challenge 0
 //
 // Challenge banner time! Write a function that console.logs "####### Challenge n #######", where n is the number passed into the function.
-function challenge(n){
+function banner(n){
   console.log ('####### Challenge ' + n + " #######")
 } 
 
