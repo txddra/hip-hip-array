@@ -146,6 +146,7 @@ for (let i = 0; i < result.length; i++){
 
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the two arrays are the same, because `slice` does NOT modify the original array.
+banner(11)
 const newStudents=students.slice(3,11)
 for(let i=0;i < newStudents.length;i++){
 
@@ -158,7 +159,11 @@ for (let i = 0; i < students.length; i++ ){
 // Challenge 12
 // Pull the items at the 4th-6th indices (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
-
+banner(12)
+dinosaurs.splice(3,3)
+for (let i = 0; i < dinosaurs.length; i++){
+console.log(dinosaurs[i])
+}
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
