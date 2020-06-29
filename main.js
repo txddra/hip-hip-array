@@ -181,3 +181,9 @@ console.log(dinosaurs)
 // Use .concat to combine the following two arrays into a NEW array you make. Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
+
+banner(15)
+colors = primaries.concat(secondaries)
+for (let i = 0; i < colors.length; i++){
+  console.log(colors[i])
+}
