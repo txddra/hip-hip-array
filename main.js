@@ -134,7 +134,15 @@ for(let i = 3; i <= 10; i++){
 
 // Challenge 10
 // Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy indivudally.
-
+banner(10)
+let  result = []
+for (let i = 3;i <= 10;i++){
+  result.push(students[i])
+}
+console.log(result)
+for (let i = 0; i < result.length; i++){
+  console.log(result[i])
+}
 
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the two arrays are the same, because `slice` does NOT modify the original array.
