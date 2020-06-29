@@ -146,7 +146,14 @@ for (let i = 0; i < result.length; i++){
 
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the two arrays are the same, because `slice` does NOT modify the original array.
+const newStudents=students.slice(3,11)
+for(let i=0;i < newStudents.length;i++){
 
+console.log(newStudents[i])}
+
+for (let i = 0; i < students.length; i++ ){
+  console.log(students[i])
+}
 
 // Challenge 12
 // Pull the items at the 4th-6th indices (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
