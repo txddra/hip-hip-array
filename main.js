@@ -90,6 +90,7 @@ for(let i = 0; i < symmetricalCapitals.length; i++){
 
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
+banner(6)
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 fibonacciNumbers.push(4, 20);
 fibonacciNumbers.unshift(0);
@@ -99,7 +100,12 @@ console.log(fibonacciNumbers[i])
 
 // Challenge 7
 // Make a NEW array with 5 values of your choice, using the same syntax as the arrays from the previous 6 challenges, that is, every value should be placed within the square brackets.  Now console.log out each value individually.
+const myCousins = ['Christopher', 'Jasmine', 'Kamile', 'Jonathan', 'Micah'];
+banner(7)
+for (let i = 0; i < myCousins.length; i++){
+  console.log(myCousins[i])
 
+}
 
 // Challenge 8
 // Make a new EMPTY array and fill it with five values of your choice using BOTH .push AND .unshift, and then console.log out each value individually.
