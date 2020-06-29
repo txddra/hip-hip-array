@@ -68,8 +68,12 @@ for(let i = 0; i < positiveNumbers.length; i++){
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four of them!
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
-
-
+banner(4)
+for(let i = 0; i < mixedSignNumbers.length; i++){
+if(mixedSignNumbers[i] % 2 === 0 ){
+console.log(mixedSignNumbers[i])
+}
+}
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
 const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
