@@ -6,16 +6,18 @@
 // Challenge 0
 //
 // Challenge banner time! Write a function that console.logs "####### Challenge n #######", where n is the number passed into the function.
-// function challenge(n){
-//   console.log ('####### Challenge ' + n + " #######")
+function challenge(n){
+  console.log ('####### Challenge ' + n + " #######")
+} 
+
+//will make the banner and number challenge match
+// function banner(num){
+// let banner = ''
+// for (let i = 1; i <= num; i++){
+//   banner = banner + '#';
 // }
-function banner(num){
-let banner = ''
-for (let i = 1; i <= num; i++){
-  banner = banner + '#';
-}
-console.log(banner + ' Challenge ' + num + ' '+ banner);
-}
+// console.log(banner + ' Challenge ' + num + ' '+ banner);
+// }
 banner(0);
 // Call this function before each of the below challenges, passing in the number of the current challenge.
 // 
